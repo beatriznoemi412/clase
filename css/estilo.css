@@ -21,7 +21,7 @@
   background-color: brown;
   grid-area: header;
   width: 100vw;
-  height: 1100px; }
+  height: 990px; }
 
 .titulo {
   font-family: "Dancing Script", cursive;
@@ -30,10 +30,9 @@
   padding: 10px;
   color: white;
   height: 10%; }
-
-.titulo__expand {
-  -webkit-animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+  .titulo .titulo__expand {
+    -webkit-animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
 @-webkit-keyframes titulo__expand {
   0% {
@@ -89,3 +88,32 @@
     font-size: 2rem;
     font-family: "Dancing Script", cursive;
     color: white; }
+
+.footer {
+  width: 100vw;
+  background-color: brown;
+  height: auto;
+  grid-area: footer;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around; }
+  .footer h1, .footer h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    color: black; }
+  .footer .footer__comunicarse,
+  .footer .correo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; }
+  .footer .footer__comunicarse {
+    padding: 20px; }
+  .footer .correo__mailto {
+    font-size: 1.2rem;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    color: black; }
