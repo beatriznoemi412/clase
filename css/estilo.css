@@ -4,36 +4,36 @@
   box-sizing: content-box; }
   *::selection {
     color: brown; }
-  
+
 .general {
   background-image: linear-gradient(90deg, #ce9092, #d49697, rgba(232, 203, 203, 0.742));
   overflow-x: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 0.5fr;
-  grid-template-areas: "header header header"
- "ciudad ciudad ciudad"
- "container container container"
- "footer footer footer";
+  grid-template-areas: "header header header" "ciudad ciudad ciudad" "container container container" "footer footer footer";
   grid-column-gap: 5px;
   grid-row-gap: 15px;
   width: 100vw;
   height: 100vh; }
-  .general #header {
-    background-color: brown;
-    grid-area: header;
-    width: 100vw;
-    height: 1100px; }
-  .general .titulo {
-    font-family: "Dancing Script", cursive;
-    font-size: 2.2rem;
-    text-align: center;
-    padding: 10px;
-    color: white;
-    height: 10%; }
-  .general .titulo__expand {
-    -webkit-animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-    animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+#header {
+  background-color: brown;
+  grid-area: header;
+  width: 100vw;
+  height: 1100px; }
+
+.titulo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  height: 10%; }
+
+.titulo__expand {
+  -webkit-animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
 @-webkit-keyframes titulo__expand {
   0% {
@@ -52,35 +52,36 @@
     opacity: 0.6; }
   100% {
     opacity: 1; } }
-  .general .ciudad {
-    grid-area: ciudad; }
-    .general .ciudad .ciudad__listas__reseteo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap; }
-      .general .ciudad .ciudad__listas__reseteo li {
-        list-style-type: none; }
-      .general .ciudad .ciudad__listas__reseteo a,
-      .general .ciudad .ciudad__listas__reseteo .ciudad__listas__reseteo a:link,
-      .general .ciudad .ciudad__listas__reseteo a:visited,
-      .general .ciudad .ciudad__listas__reseteo a:active {
-        text-decoration: none;
-        color: white;
-        font-size: 1.2rem;
-        font-weight: bold;
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-        padding: 10px; }
-      .general .ciudad .ciudad__listas__reseteo a:hover {
-        color: #f7dddd; }
-  .general .ciudad__nav__img {
+
+.ciudad {
+  grid-area: ciudad; }
+  .ciudad .ciudad__listas__reseteo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .ciudad .ciudad__listas__reseteo li {
+      list-style-type: none; }
+    .ciudad .ciudad__listas__reseteo a,
+    .ciudad .ciudad__listas__reseteo .ciudad__listas__reseteo a:link,
+    .ciudad .ciudad__listas__reseteo a:visited,
+    .ciudad .ciudad__listas__reseteo a:active {
+      text-decoration: none;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      padding: 10px; }
+    .ciudad .ciudad__listas__reseteo a:hover {
+      color: #f7dddd; }
+  .ciudad .ciudad__nav__img {
     background-image: url "../assets/img/TandilyDique.jpeg";
     width: 97vw;
     opacity: 0.9;
     filter: alpha(opacity=80);
     zoom: 1;
     margin-left: 10px; }
-  .general .ciudad__span {
+  .ciudad .ciudad__span {
     background-color: brown;
     display: flex;
     justify-content: center;

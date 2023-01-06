@@ -18,13 +18,13 @@
     grid-row-gap: 15px;
     width: 100vw;
     height: 100vh;
-  
+}
   #header {
     background-color: brown;
     grid-area: header;
     width: 100vw;
     height: 1100px;
-  }
+  } 
   .titulo {
     font-family: "Dancing Script", cursive;
     font-size: 2.2rem;
@@ -33,7 +33,6 @@
     color: white;
     height: 10%;
   }
-  
   .titulo__expand {
     -webkit-animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
       both;
@@ -63,7 +62,7 @@
       opacity: 1;
     }
   }
-  
+
   .ciudad {
     grid-area: ciudad;
   
@@ -92,7 +91,7 @@
     color: rgb(247, 221, 221);
   }
 }
-  }
+  
   .ciudad__nav__img {
     background-image: (url "../assets/img/TandilyDique.jpeg");
     width: 97vw;
@@ -110,4 +109,4 @@
     font-family: "Dancing Script", cursive;
     color: white;
   }
-}
+  }
