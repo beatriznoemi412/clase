@@ -1,0 +1,38 @@
+.container {
+    width: 100vw;
+    text-align: center;
+#sectuno {
+    overflow: hidden;
+  
+ h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: $font-ciudad;
+    padding: 20px;
+ }
+  a{
+    color: $color-h1;
+  }
+  p {
+    margin: 50px;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+ }
+}
+   #sectdos >.enumera{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 50px;
+    line-height: 3;
+    background: rgb(199, 100, 100);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: justify;
+    list-style-type: none;
+   }
+  .vistaPanoramica {
+    width: 100%;
+  }
+   
+
