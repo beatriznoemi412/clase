@@ -2,10 +2,12 @@
 
 .header{
     background-color: brown!important;
+  
 }
     .titulo {
-        font-family: $font-ciudad !important;
-        color: $color-h1 !important;
+        background: brown;
+        font-family: $font-ciudad;
+        color: $color-h1;
 
 .titulo__expand {
     -webkit-animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
@@ -60,7 +62,7 @@
     font-family: "Dancing Script", cursive;
   }
 
-/*
+
   body {
     background-image: linear-gradient(
       90deg,
@@ -70,4 +72,3 @@
     );
     overflow-x: hidden;
   }
-}
