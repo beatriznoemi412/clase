@@ -189,7 +189,7 @@
   }
   /*BOOTSTRAP*/
   /*BARRA DE NAVEGACION*/
-  
+  /*
   .titulo__expand {
     -webkit-animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
       both;
@@ -255,7 +255,7 @@
     overflow-x: hidden;
   }
   
-  /*FOOTER con BOOTSTRAP*/
+  /*FOOTER con BOOTSTRAP*//*
   footer {
     background-color: brown;
   }
@@ -286,7 +286,7 @@
   /*TRANSPORTE URBANO PASAJEROS*/
   
   /*ACCORDION BOOTSTRAP EN TRANQPORTE URBANO*/
-  .accordion{
+ /* .accordion{
     background-color: transparent!important;
     opacity: 0.8 !important;
   }
@@ -313,5 +313,5 @@
   .accordion-item{
     background-color: rgb(195, 110, 110)!important;
     border: none!important;
-  }
+  }*/
   
