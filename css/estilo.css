@@ -207,54 +207,54 @@ body {
 /*FOOTER con BOOTSTRAP*/
 footer {
   background-color: brown; }
+  footer footer > h1 {
+    font-family: "Dancing Script", cursive; }
+  footer .bi {
+    color: black; }
+  footer #correo > h2,
+  footer .correo__email {
+    font-family: "Dancing Script", cursive; }
 
-footer > h1 {
-  font-family: "Dancing Script", cursive;
-  font-size: 2rem; }
+/*main*/
+h1 {
+  font-family: "Dancing Script", cursive; }
 
-.text-black {
-  font-size: 2rem; }
-
-.informe {
-  font-size: 1rem; }
-
-.bi {
-  color: black; }
-
-#correo > h2 {
-  font-family: "Dancing Script", cursive;
-  font-size: 1.5rem; }
-
-.correo__email {
-  font-family: "Dancing Script", cursive;
-  font-size: 1.2rem;
-  font-family: "Dancing Script", cursive;
-  text-decoration: none; }
-
-/*TRANSPORTE URBANO PASAJEROS*/
 /*ACCORDION BOOTSTRAP EN TRANQPORTE URBANO*/
+.bus {
+  font-family: "Dancing Script", cursive; }
+
 .accordion {
   background-color: transparent !important;
   opacity: 0.8 !important; }
+  .accordion .accordion-button {
+    background-color: #c67777 !important;
+    font-family: "Dancing Script", cursive !important;
+    font-size: 1.4rem !important;
+    color: black !important; }
+    .accordion .accordion-button:focus {
+      box-shadow: 0 0 0 0.25rem #841a1a !important;
+      color: brown !important;
+      background-color: #c08383 !important; }
+      .accordion .accordion-button:focus:hover {
+        color: #c38587; }
+        .accordion .accordion-button:focus:hover:active {
+          color: brown !important;
+          background: #8f4f4f !important; }
+  .accordion .accordion-item {
+    background-color: #c36e6e !important;
+    border: none !important; }
 
 .accordion-button:focus {
   box-shadow: 0 0 0 0.25rem brown !important;
-  color: brown !important;
+  color: #795f5f !important;
   background-color: #c08383 !important; }
+  .accordion-button:focus:hover {
+    color: #c38587; }
+    .accordion-button:focus:hover:active {
+      color: brown !important;
+      background: #8f4f4f !important; }
 
-.accordion-button:hover {
-  color: #c38587; }
-
-.accordion-button:active {
-  color: brown !important;
-  background: #8f4f4f !important; }
-
-.accordion-button {
-  background-color: #c67777 !important;
-  font-family: "Dancing Script", cursive !important;
-  font-size: 1.4rem !important;
-  color: black !important; }
-
-.accordion-item {
-  background-color: #c36e6e !important;
-  border: none !important; }
+.iframe {
+  border: 10px ridge brown !important; }
+  .iframe iframe {
+    width: 100% !important; }

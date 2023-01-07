@@ -40,7 +40,7 @@
   }
   .header,
   .navbar {
-    background-color: brown;
+    background-color:  $background-header;
   }
   .navbar-nav {
     font-size: 1.2rem;
@@ -50,11 +50,11 @@
     color: rgb(5, 5, 5) !important;
   }
   .te_cuento {
-    background-color: brown;
+    background-color: $background-header;
     width: 100vw;
     font-size: 2rem;
     text-align: center;
-    font-family: "Dancing Script", cursive;
+    font-family: $font-ciudad;
   }
   body {
     background-image: linear-gradient(
@@ -68,61 +68,74 @@
   
   /*FOOTER con BOOTSTRAP*/
   footer {
-    background-color: brown;
-  }
+    background-color: $background-header;
   footer > h1 {
-    font-family: "Dancing Script", cursive;
-    font-size: 2rem;
-  }
-  .text-black {
-    font-size: 2rem;
-  }
-  .informe {
-    font-size: 1rem;
+    font-family: $font-ciudad;
   }
   .bi {
     color: black;
   }
-  #correo > h2 {
-    font-family: "Dancing Script", cursive;
-    font-size: 1.5rem;
+  #correo > h2,
+  .correo__email{
+    font-family: $font-ciudad;
+
   }
-  .correo__email {
-    font-family: "Dancing Script", cursive;
-    font-size: 1.2rem;
-    font-family: "Dancing Script", cursive;
-    text-decoration: none;
-  }
-  
-  /*TRANSPORTE URBANO PASAJEROS*/
+}
+  /*main*/
+   h1{
+    font-family: $font-ciudad;
+   }
   
   /*ACCORDION BOOTSTRAP EN TRANQPORTE URBANO*/
+  .bus{
+    font-family: $font-ciudad;
+  }
   .accordion{
     background-color: transparent!important;
     opacity: 0.8 !important;
-  }
-  .accordion-button:focus{
-    box-shadow: 0 0 0 0.25rem brown!important;
-    color: brown!important;
-    background-color: #c08383 !important;
-  }
-  .accordion-button:hover{
-    color:#c38587;
-  }
-  .accordion-button:active{
-    color: brown!important;
-    background: rgb(143, 79, 79)!important;
-  }
+  
+  
   .accordion-button{
     background-color: rgb(198, 119, 119) !important;
-    font-family: "Dancing Script", cursive !important;
+    font-family: $font-ciudad!important;
     font-size: 1.4rem !important;
     color:black !important;
+
+  &:focus{
+    box-shadow: 0 0 0 0.25rem rgb(132, 26, 26)!important;
+    color: $color-accordion!important;
+    background-color: #c08383 !important;
+  &:hover{
+    color:#c38587;
   
+  &:active{
+    color: $color-accordion!important;
+    background: rgb(143, 79, 79)!important;
   }
-  
-  .accordion-item{
+}
+  }
+}
+.accordion-item{
     background-color: rgb(195, 110, 110)!important;
     border: none!important;
   }
+}
+.accordion-button:focus{
+    box-shadow: 0 0 0 0.25rem $color-accordion!important;
+    color: rgb(121, 95, 95)!important;
+    background-color: #c08383 !important;
+  &:hover{
+    color:#c38587;
   
+  &:active{
+    color: $color-accordion!important;
+    background: rgb(143, 79, 79)!important;
+  }
+}
+}
+  .iframe{
+  border: 10px ridge $color-accordion!important;
+  iframe{
+    width: 100% !important;
+  }
+}
