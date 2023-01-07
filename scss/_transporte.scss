@@ -1,0 +1,128 @@
+/*BOOTSTRAP*/
+  /*BARRA DE NAVEGACION*/
+  
+  .titulo__expand {
+    -webkit-animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+      both;
+    animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  }
+  @-webkit-keyframes titulo__expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes titulo__expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .foto {
+    background-image: (url "../assets/img/TandilyDique.jpeg");
+    width: 100vw;
+    height: 400px;
+    opacity: 0.7;
+    filter: alpha(opacity=80);
+    zoom: 1;
+  }
+  .header,
+  .navbar {
+    background-color: brown;
+  }
+  .navbar-nav {
+    font-size: 1.2rem;
+  }
+  a:hover {
+    border: none !important;
+    color: rgb(5, 5, 5) !important;
+  }
+  .te_cuento {
+    background-color: brown;
+    width: 100vw;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+  }
+  body {
+    background-image: linear-gradient(
+      90deg,
+      #ce9092,
+      #c99c9d,
+      rgba(232, 203, 203, 0.742)
+    );
+    overflow-x: hidden;
+  }
+  
+  /*FOOTER con BOOTSTRAP*/
+  footer {
+    background-color: brown;
+  }
+  footer > h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+  }
+  .text-black {
+    font-size: 2rem;
+  }
+  .informe {
+    font-size: 1rem;
+  }
+  .bi {
+    color: black;
+  }
+  #correo > h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5rem;
+  }
+  .correo__email {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.2rem;
+    font-family: "Dancing Script", cursive;
+    text-decoration: none;
+  }
+  
+  /*TRANSPORTE URBANO PASAJEROS*/
+  
+  /*ACCORDION BOOTSTRAP EN TRANQPORTE URBANO*/
+  .accordion{
+    background-color: transparent!important;
+    opacity: 0.8 !important;
+  }
+  .accordion-button:focus{
+    box-shadow: 0 0 0 0.25rem brown!important;
+    color: brown!important;
+    background-color: #c08383 !important;
+  }
+  .accordion-button:hover{
+    color:#c38587;
+  }
+  .accordion-button:active{
+    color: brown!important;
+    background: rgb(143, 79, 79)!important;
+  }
+  .accordion-button{
+    background-color: rgb(198, 119, 119) !important;
+    font-family: "Dancing Script", cursive !important;
+    font-size: 1.4rem !important;
+    color:black !important;
+  
+  }
+  
+  .accordion-item{
+    background-color: rgb(195, 110, 110)!important;
+    border: none!important;
+  }
+  
