@@ -35,6 +35,7 @@
 }
 /*FOOTER BOOTSTRAP*/
 footer {
+  .container-fluid{
   background-color: brown;
 
   h1, h2 {
@@ -53,5 +54,6 @@ footer {
 .correo__email{
   font-family: $font-ciudad;
   text-decoration: none;
+}
 }
 }
