@@ -1,17 +1,22 @@
-/*TRANSPORTE URBANO PASAJEROS*/
+/*MAIN TRANSPORTE URBANO PASAJEROS*/
 
-  
+#titulo{
+    color: map-get($theme-colors, "anchor");
+    font-family: $font-ciudad;
+            }     
   /*ACCORDION BOOTSTRAP EN TRANQPORTE URBANO*/
-.accordion{
+
+  .bus{
+    @extend #titulo;
+  }
+  .accordion{
     background-color: transparent!important;
     opacity: 0.8 !important;
     border: $background-header;
  
-     
     .accordion-item{
         background-color: map-get($theme-colors, "accordionItem");
         border: none!important;
-  
     .accordion-button{
         background-color: rgb(198, 119, 119) !important;
         font-family: $font-ciudad;
@@ -35,6 +40,5 @@
 
 }
 }
- 
- 
- 
+
+

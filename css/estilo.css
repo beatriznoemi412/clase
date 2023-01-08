@@ -8590,7 +8590,11 @@ body {
 .vistaPanoramica {
   width: 100%; }
 
-/*TRANSPORTE URBANO PASAJEROS*/
+/*MAIN TRANSPORTE URBANO PASAJEROS*/
+#titulo, .bus {
+  color: black;
+  font-family: "Dancing Script", cursive; }
+
 /*ACCORDION BOOTSTRAP EN TRANQPORTE URBANO*/
 .accordion {
   background-color: transparent !important;
