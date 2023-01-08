@@ -29,7 +29,7 @@
     background-color: #c08383 !important;
         } 
     &:hover{
-    color:  map-get($theme-colors, "danger");
+    color:map-get($theme-colors, "danger");
     }
    
       &:active{
