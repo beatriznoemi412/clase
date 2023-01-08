@@ -31,8 +31,8 @@
     text-align: center;
     padding: 10px;
     color: $color-h1;
-    height: 10%;
-  
+    height: 1
+  }
   .titulo__expand {
     -webkit-animation: titulo__expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
       both;
@@ -50,7 +50,7 @@
       opacity: 1;
     }
   }
-
+  
   @keyframes titulo__expand {
     0% {
       letter-spacing: -0.5em;
@@ -63,7 +63,8 @@
       opacity: 1;
     }
   }
-  }
+  
+
   .ciudad {
     grid-area: ciudad;
   

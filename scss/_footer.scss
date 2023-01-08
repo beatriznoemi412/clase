@@ -33,3 +33,25 @@
     color: black;
   }
 }
+/*FOOTER BOOTSTRAP*/
+footer {
+  background-color: brown;
+
+  h1, h2 {
+  font-family: $font-ciudad;
+  font-size: 2rem;
+ }
+.informe {
+  font-size: 1rem;
+}
+.bi {
+  color: black;
+}
+#correo > h2 {
+  font-family: $font-ciudad;
+}
+.correo__email{
+  font-family: $font-ciudad;
+  text-decoration: none;
+}
+}
