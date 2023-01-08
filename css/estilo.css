@@ -8521,7 +8521,7 @@ body {
     body .header a:hover,
     body .navbar a:hover {
       border: none !important;
-      color: #212529;
+      color: black;
       width: 100vw; }
     body .header .te_cuento,
     body .navbar .te_cuento {
@@ -8589,3 +8589,29 @@ body {
 
 .vistaPanoramica {
   width: 100%; }
+
+/*TRANSPORTE URBANO PASAJEROS*/
+/*ACCORDION BOOTSTRAP EN TRANQPORTE URBANO*/
+.accordion {
+  background-color: transparent !important;
+  opacity: 0.8 !important;
+  border: brown; }
+  .accordion .accordion-item {
+    background-color: #c36e6e;
+    border: none !important; }
+    .accordion .accordion-item .accordion-button {
+      background-color: #c67777 !important;
+      font-family: "Dancing Script", cursive;
+      font-size: 1.4rem !important;
+      color: black; }
+      .accordion .accordion-item .accordion-button:focus {
+        box-shadow: 0 0 0 0.25rem brown !important;
+        color: brown;
+        background-color: #c08383 !important; }
+      .accordion .accordion-item .accordion-button:hover {
+        color: brown; }
+      .accordion .accordion-item .accordion-button:active {
+        color: brown;
+        background-color: brown; }
+
+/*modificando variables bootstrap*/

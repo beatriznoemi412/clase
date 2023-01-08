@@ -1,3 +1,4 @@
+
 $background-header: brown;
 $color-h1: white;
 $font-ciudad: "Dancing Script", cursive;
@@ -6,5 +7,7 @@ $btn-accordion:"transparent";
 $theme-colors: (
   "danger": brown,
   "primary": #f7dddd,
-  "anchor": $dark,
+  "anchor": black,
+  "accordionItem": rgb(195, 110, 110),
+  "accordion":#dc3545,
   ) 

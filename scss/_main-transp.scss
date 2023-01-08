@@ -1,38 +1,40 @@
 /*TRANSPORTE URBANO PASAJEROS*/
+
   
   /*ACCORDION BOOTSTRAP EN TRANQPORTE URBANO*/
- .accordion{
+.accordion{
     background-color: transparent!important;
     opacity: 0.8 !important;
+    border: $background-header;
+ 
+     
     .accordion-item{
-        background-color: rgb(195, 110, 110)!important;
+        background-color: map-get($theme-colors, "accordionItem");
         border: none!important;
-      }
+  
     .accordion-button{
         background-color: rgb(198, 119, 119) !important;
-        font-family: "Dancing Script", cursive !important;
+        font-family: $font-ciudad;
         font-size: 1.4rem !important;
-        color:black !important;
+        color: map-get($theme-colors, "anchor");
       
-      
-  .accordion-button:focus{
+        &:focus{
     box-shadow: 0 0 0 0.25rem brown!important;
-    color: brown!important;
+    color: map-get($theme-colors, "danger");
     background-color: #c08383 !important;
-  }
-  .accordion-button:hover{
-    color:#c38587;
-  }
-  .accordion-button:active{
-    color: brown!important;
-    background: rgb(143, 79, 79)!important;
-  }
-  .accordion-button{
-    background-color: rgb(198, 119, 119) !important;
-    font-family: "Dancing Script", cursive !important;
-    font-size: 1.4rem !important;
-    color:black !important;
-  
-  }
+        } 
+    &:hover{
+    color:  map-get($theme-colors, "danger");
+    }
+   
+      &:active{
+        color:map-get($theme-colors, "danger");
+        background-color: map-get($theme-colors, "danger");
+    }
+    }
+
 }
+}
+ 
+ 
  

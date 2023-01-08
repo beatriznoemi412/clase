@@ -5,3 +5,7 @@
 @import "./footer";
 @import "./main-index";
 @import "./main-transp";
+
+$principal: brown;
+/*modificando variables bootstrap*/
+$primary: $principal;
